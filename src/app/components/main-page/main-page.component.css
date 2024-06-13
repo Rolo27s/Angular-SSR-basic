@@ -1,0 +1,80 @@
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 45px;
+  line-height: 45px;
+  color: rgb(45, 46, 51);
+  text-align: center;
+  padding: 1em 0.25em 0.25em;
+}
+
+h4 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2px;
+  color: rgb(45, 46, 51);
+  text-align: center;
+}
+
+p {
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgb(119, 119, 119);
+  max-width: 990px;
+  margin: 0 auto;
+  margin-bottom: 3em;
+  padding: 0.25em 2em;
+}
+
+.juxtapose {
+  display: flex;
+  justify-content: center;
+  max-height: 550px;
+  box-shadow: 0 0 4px rgb(0, 0, 0, 0.6);
+}
+
+iframe {
+  max-width: 900px;
+  border: 0;
+}
+
+img {
+  width: 100%;
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+  box-shadow: 0 0 4px rgb(0, 0, 0, 0.6);
+}
+
+.flex-content {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  padding: 1em 4em;
+}
+
+.flex-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.flex-item div {
+  background-color: #ebeae5;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em 0.25em 1em;
+  bottom: -8%;
+  left: 8%;
+  width: 300px;
+  box-shadow: 0 0 4px rgb(0, 0, 0, 0.6);
+}

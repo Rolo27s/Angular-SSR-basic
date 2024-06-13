@@ -1,0 +1,33 @@
+<header>
+    <video autoplay muted loop class="video-header">
+      <source src="assets/video-header.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <div class="content">
+      <nav [ngClass]="{ 'sticky': isSticky }">
+        <ul>
+          <li><a routerLink="/"><img id="logo" src="../../../assets/logo2.png" alt="logo" /></a></li>
+          <li><a routerLink="/arquitectura">ARQUITECTURA</a></li>
+          <li><a routerLink="/interiorismo">INTERIORISMO</a></li>
+          <li><a routerLink="/inmobiliaria">INMOBILIARIA</a></li>
+          <li><a routerLink="/nosotros">NOSOTROS</a></li>
+          <li><a routerLink="/proyectos">PROYECTOS</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropbtn"
+              >TÉCNICA&nbsp;<img
+                src="../../../assets/flecha-hacia-abajo-para-navegar.png"
+                alt="Flecha Abajo"
+            /></a>
+            <ul class="dropdown-content">
+              <li><a routerLink="/option1">Oficina&nbsp;Técnica</a></li>
+              <li><a routerLink="/option2">Aperturas</a></li>
+              <li><a routerLink="/option3">Certificados&nbsp;Técnicos</a></li>
+              <li><a routerLink="/option4">Licencias</a></li>
+            </ul>
+          </li>
+          <li><a routerLink="/contacto">CONTACTO</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
